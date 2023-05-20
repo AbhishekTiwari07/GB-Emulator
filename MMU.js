@@ -8,10 +8,10 @@ MMU = {
     },
 
     wb: function(addr, val){
-        // Read 8-bit/byte from a given address
+        // Write 8-bit/byte from a given address
     },
 
     ww: function(addr, val){
-        // Read 16-bit/word from a given address
+        // Write 16-bit/word from a given address
     },
 }
