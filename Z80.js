@@ -264,11 +264,3 @@ const Z80 = {
         }
     }
 }
-
-
-// Test
-Z80._r.a = parseInt('0x44', 16);
-Z80._r.c = parseInt('0x11', 16);
-Z80.Addr('c')
-
-console.log(Z80._r.a.toString(16))
