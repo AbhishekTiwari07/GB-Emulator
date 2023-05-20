@@ -1,9 +1,9 @@
-## GameBoy Emulator
+# GameBoy Emulator
 
 Trying to create a interpretive emulator to run GB games on a browser.
 
 
-# Checklist
+### Checklist
 - [ ] Supported opcode
     - [x] ADD A, r
     - [ ] ADD A, n
@@ -13,5 +13,5 @@ Trying to create a interpretive emulator to run GB games on a browser.
     - [x] NOP
 - [x] MMU 
 
-# Acknowledments
+### Acknowledments
 - Sean Young, Vrije University: Z80 opcode map
