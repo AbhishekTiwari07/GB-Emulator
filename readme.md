@@ -11,7 +11,7 @@ Trying to create a interpretive emulator to run GB games on a browser.
     - [ ] SUB A, n
     - [x] CP A, r
     - [x] NOP
-- [x] MMU 
+- [ ] MMU 
 
 ### Acknowledments
 - Sean Young, Vrije University: Z80 opcode map
