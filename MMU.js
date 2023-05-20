@@ -1,4 +1,4 @@
-MMU = {
+const MMU = {
     rb: function(addr){
         // Read 8-bit/byte from a given address
     },
@@ -15,3 +15,5 @@ MMU = {
         // Write 16-bit/word from a given address
     },
 }
+
+module.exports = MMU;
