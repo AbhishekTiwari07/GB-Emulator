@@ -32,10 +32,10 @@ Z80 = {
     },
     
 
-    // Compare B to A: (CP A, B)
-    CPr_b: function(){
+    // Compare register 'r' to A: (CP A, r)
+    CPr: function(R){
         let temp = this._r.a;
-        temp -= this._r.b;
+        temp -= this._r[`${R}`];
         this._r.f |= 0x40;
         if(!(this._r.a & 255)) this._r.f |= 0x80;
         if(this._r.a > 255) this._r.f |= 0x10;
